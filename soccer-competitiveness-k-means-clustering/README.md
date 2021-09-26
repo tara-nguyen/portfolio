@@ -1,6 +1,6 @@
 # Analyzing the Competitive Balance of Different Soccer Leagues
 
-- AUTHOR: [**TARA NGUYEN**](https://www.linkedin.com/in/nguyenthuyanh/)
+- AUTHOR: [**TARA NGUYEN**](https://www.linkedin.com/in/taranguyen264/)
 - Project for the course *Exploratory Data Analysis and Visualization* at UCLA Extension
 - Completed in December 2020
 
@@ -12,13 +12,15 @@
 
 **Method and findings**: The project was completed in R (except for part of the data cleaning process that was done in Excel). Through exploratory data analysis and k-means clustering, I found that, in general, the Major League Soccer was the more competitive than the Bundesliga, the La Liga, and the Premier League.
 
-For a complete report, see the [wiki page](https://github.com/tara-nguyen/soccer-competitiveness-k-means-clustering/wiki)
-
 ## List of files and directory in the repo
 
 [`Plots`](Plots) - directory for plots created during data visualization
 
+[`References`](References) - academic journal articles on competitive balance
+
 `README.md` - this document you are currently reading
+
+[`WIKI.md`](WIKI.md) - complete report of the project
 
 [`References`](References) - directory for academic articles on competitive balance
 
@@ -37,3 +39,7 @@ For a complete report, see the [wiki page](https://github.com/tara-nguyen/soccer
 The dataset and R scripts are free for download and use, **provided that proper credit is given**.
 
 If you mention or use any part of my research report, please provide a link to this repo.
+
+## Related article
+
+[How Competitive is the Major League Soccer Compared to European Soccer Leagues?](https://tara-nguyen.medium.com/how-competitive-is-the-major-league-soccer-compared-to-european-soccer-leagues-92accdbf3fc)
