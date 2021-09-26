@@ -22,6 +22,6 @@ The aim of this project was to predict clients’ churning behavior – specific
 
 ## Usage Note
 
-The dataset and R scripts are free for download and use, **provided that proper credit is given**.
+The Python code is free for download and use, **provided that proper credit is given**.
 
 If you mention or use any part of my research report, please provide a link to this repo.
