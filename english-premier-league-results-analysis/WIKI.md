@@ -392,7 +392,7 @@ The probability of a match result being classified as a draw increased when eith
 
 Finally we have the partial dependence plot for the variable `scoredfirst`:
 
-![randomforest-partialdependence-scfst](https://github.com/tara-nguyen/english-premier-league-random-forest-analysis/blob/main/Plots/randomforest-partialdependence-scfst.png)
+![randomforest-partialdependence-sf](https://github.com/tara-nguyen/english-premier-league-random-forest-analysis/blob/main/Plots/randomforest-partialdependence-sf.png)
 
 Once again we can see evidence for the [home advantage](1.-Introduction#other-questions-answered-along-the-way). The increase in the probability of a match result being classified as a home win when the home team scored first was much larger than the increase in the probability of a match result being classified as an away win when the away team scored first. Similarly, the decrease in the probability of a match result being classified as a home win when the away team scored first was much smaller than the decrease in the probability of a match result being classified as an away win when the home team scored first.
 
