@@ -29,28 +29,28 @@ Generate a data report and summary of the given dataset. Be sure to explicitly a
 
     a. There are multiple variables to work with and multiple visuals you can use. Pick out some interesting ones to highlight and talk about. Be sure to clearly describe your observation that that someone can follow even without seeing the graph.
 
-    b. Include at least one histogram
+    b. Include at least one histogram.
 
-    c. Include at least one bar plot (of a different variable from the histogram)
+    c. Include at least one bar plot (of a different variable from the histogram).
 
-    d. Include at least one box plot (of a different variable from the bar plot and histogram)
+    d. Include at least one box plot (of a different variable from the bar plot and histogram).
 
 4. Two-variable visuals
 
     a. There are multiple variables to work with and multiple visuals you can use. Pick out some interesting ones to highlight and talk about. Be sure to clearly describe
 your observation that that someone can follow even without seeing the graph.
 
-    b. Include at least one scatter plot
+    b. Include at least one scatter plot.
 
-    c. Include at least one high density plot
+    c. Include at least one high density plot.
 
 5. Analysis
 
     a. The organization did not provide you with any specific topic to investigate. They are interested in what patterns you find. What are some interesting findings?
 
-    b. Include at least one regression result
+    b. Include at least one regression result.
 
-    c. Include at least one clustering result
+    c. Include at least one clustering result.
 
 6. Sensitivity analysis
 
