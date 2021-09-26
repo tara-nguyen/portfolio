@@ -14,6 +14,8 @@ The aim of this project was to predict clients’ churning behavior – specific
 
 `README.md` - this document you are currently reading
 
+[`REPORT.ipynb`](REPORT.ipynb) - final report for the project
+
 [`churn-analysis.ipynb`](churn-analysis.ipynb) - Jupyter notebook containing Python code for data wrangling, visualization, and statistical analyses
 
 [`telecom_users.csv`](telecom_users.csv) - data set
