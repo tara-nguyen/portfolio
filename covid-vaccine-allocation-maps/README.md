@@ -12,7 +12,11 @@ It has been more than a month since Americans aged 16 and above received the fir
 
 [`Plots`](Plots) - directory for plots created during data visualization
 
-[`covid-vaccine-allocations.R`](covid-vaccine-allocations.R) - R script## Usage Note
+`README.md` - this document you are currently reading
+
+[`covid-vaccine-allocations.R`](covid-vaccine-allocations.R) - R script
+
+## Usage Note
 
 The dataset and R scripts are free for download and use, **provided that proper credit is given**.
 
