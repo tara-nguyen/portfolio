@@ -1,8 +1,9 @@
 # Analysis of Match Statistics and Team Performances in the Premier League From Season 2015/16 to Season 2019/20
 
-- AUTHOR: [**TARA NGUYEN**](https://www.linkedin.com/in/nguyenthuyanh/)
+- AUTHOR: [**TARA NGUYEN**](https://www.linkedin.com/in/taranguyen264/)
 - Final project for the course *Introduction to Data Science* at UCLA Extension
 - Completed in December 2020
+- Featured in [@AMULETAnalytics UCLAIntroDataScience repo](https://github.com/AMULETAnalytics/UCLAIntroDataScience#excellent-class-project-examples---past-students)
 
 ## Abstract
 
@@ -12,11 +13,13 @@
 
 **Method and findings**: The entire project was done in R. Using the random forest algorithm, I found three features that were highly important in predicting match results: how many goals the home team scored, how many goals the away team scored, and which team scored first. Other questions such as "*Is there really a home-team advantage?*" and "*Which team formation was the most/least effective?*" were also answered along the way.
 
-For a complete report, see the [wiki page](https://github.com/tara-nguyen/english-premier-league-random-forest-analysis/wiki).
-
 ## List of files and directory in the repo
 
 [`Plots`](Plots) - directory for plots created during data visualization
+
+`README.md` - this document you are currently reading
+
+[`WIKI.md`](WIKI.md) - complete report of the project
 
 [`epldat5seasons_Analysis.R`](epldat5seasons_Analysis.R) - main R script for data wrangling, visualization, and statistical analyses
 
@@ -25,10 +28,12 @@ For a complete report, see the [wiki page](https://github.com/tara-nguyen/englis
 [`matchstats.csv`](matchstats.csv) - final data set
 - **IMPORTANT NOTE**: If you wish to open the file, please make a copy first and open the copy. **Do NOT open the original file** because that might distort the format of some of the cells in the spreadsheet.
 
-`README.md` - this document you are currently reading
-
 ## Usage Note
 
 The dataset and R scripts are free for download and use, **provided that proper credit is given**.
 
 If you mention or use any part of my research report, please provide a link to this repo.
+
+## Related article
+
+[Home Advantage in the Premier League Before the COVID-19 Lockdown](https://tara-nguyen.medium.com/home-advantage-in-the-premier-league-before-the-covid-19-lockdown-c6939dd0208b)
