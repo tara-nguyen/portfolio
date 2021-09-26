@@ -2,6 +2,22 @@
 
 - Written by [**Tara Nguyen**](https://www.linkedin.com/in/taranguyen264/) in December 2020
 
+### Contents
+
+- [Datasets and Data Cleaning](#Datasets-and-Data-Cleaning)
+  - [Housing Data](#Housing-Data)
+  - [School Data](#School-Data)
+  - [Data Merge](#Data-Merge)
+- [Data Visualization](#Data-Visualization)
+  - [One-Variable Visuals](#One-Variable-Visuals)
+  - [Multi-Variable Visuals](#Multi-Variable-Visuals)
+- [Data Analyses](#Data-Analyses)
+  - [Linear Regression to Predict Selling Price](#Linear-Regression-to-Predict-Selling-Price)
+  - [K-Means Clustering of School Ratings and Housing Prices](#K-Means-Clustering-of-School-Ratings-and-Housing-Prices)
+  - [Sensitivity Analysis](#Sensitivity-Analysis)
+
+---
+
 ## Datasets and Data Cleaning
 
 ### Housing Data
@@ -113,7 +129,7 @@ Next is a smoothed color density plot of the areas of housing units versus the s
 
 ![housingsqft-vs-price](https://github.com/tara-nguyen/UCLA-Extension-coursework/blob/main/Exploratory%20Data%20Analysis%20and%20Visualization/Homework/Final%20assignment/Plots/housingsqft-vs-price.png)
 
-## Statistical Analyses
+## Data Analyses
 
 ### Linear Regression to Predict Selling Price
 
@@ -232,11 +248,11 @@ Gold is the only neighborhood with all schools in the "above-average" cluster, s
 
 At the other end of the spectrum is the Red neighborhood, where all schools are in the "below-average" cluster. This suggests that this neighborhood is the worst in terms of both school rating and housing price. This is also consistent with the linear regression result that selling prices are predicted to be the worst in this neighborhood.
 
-## Sensitivity Analysis
+### Sensitivity Analysis
 
 The entire data merge and data analysis process (from linear regression to k-means clustering) was rerun after the missing data in the housing dataset had been handled using list-wise deletion instead of the original method of single imputation. That is, all rows containing numeric missing values were removed, resulting in 20 rows being deleted and 647 rows left in the dataset. I will now discuss the similarities and differences between the two analysis runs.
 
-### Similarities and Differences in Linear Regression Results
+#### Similarities and Differences in Linear Regression Results
 
 When all variables except the school-information variables in the housing dataset were included as predictors, the terms that had been statistically insignificant in the first run were still insignificant this time, along with the following terms. A term that had been marginally significant in the first run but was insignificant this time was *Being the in Silver neighborhood*.
 
@@ -244,7 +260,7 @@ Next, the stepwise algorithm removed number of floors and lot size just like in 
 
 When the model selected by the stepwise algorithm was run, the only big difference from the first run, aside from the inclusion of `baths` as a predictor, was that the coefficient estimate for this added predictor was not significant (*p* = .14). This shows that the number of bathrooms was still not related to changes in selling price.
 
-### Similarities and Differences in K-Means Clustering Results
+#### Similarities and Differences in K-Means Clustering Results
 
 In this second run, the sizes of the clusters were still 17, 20 and 15. The centers differed from those in the first run only by .01 in each of the mean values for housing price. As seen from the pair of graphs below (clusters from the first run shown first, followed by those from the second run), there was no big difference between the two runs.
 
