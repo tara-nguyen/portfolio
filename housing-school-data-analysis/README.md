@@ -6,17 +6,17 @@
 
 ## Report contents
 
-- [Datasets and Data Cleaning](REPORT.MD#Datasets-and-Data-Cleaning)
-  - [Housing Data](REPORT.MD#Housing-Data)
-  - [School Data](REPORT.MD#School-Data)
-  - [Data Merge](REPORT.MD#Data-Merge)
-- [Data Visualization](REPORT.MD#Data-Visualization)
-  - [One-Variable Visuals](REPORT.MD#One-Variable-Visuals)
-  - [Multi-Variable Visuals](REPORT.MD#Multi-Variable-Visuals)
-- [Data Analyses](REPORT.MD#Data-Analyses)
-  - [Linear Regression to Predict Selling Price](REPORT.MD#Linear-Regression-to-Predict-Selling-Price)
-  - [K-Means Clustering of School Ratings and Housing Prices](REPORT.MD#K-Means-Clustering-of-School-Ratings-and-Housing-Prices)
-  - [Sensitivity Analysis](REPORT.MD#Sensitivity-Analysis)
+- [Datasets and Data Cleaning](REPORT.MD#datasets-and-data-cleaning)
+  - [Housing Data](REPORT.MD#housing-data)
+  - [School Data](REPORT.MD#school-data)
+  - [Data Merge](REPORT.MD#data-merge)
+- [Data Visualization](REPORT.MD#data-visualization)
+  - [One-Variable Visuals](REPORT.MD#one-variable-visuals)
+  - [Multi-Variable Visuals](REPORT.MD#multi-variable-visuals)
+- [Data Analyses](REPORT.MD#data-analyses)
+  - [Linear Regression to Predict Selling Price](REPORT.MD#linear-regression-to-predict-selling-price)
+  - [K-Means Clustering of School Ratings and Housing Prices](REPORT.MD#k-means-clustering-of-school-ratings-and-housing-prices)
+  - [Sensitivity Analysis](REPORT.MD#sensitivity-analysis)
 
 ## List of files and directory in the repo
 
