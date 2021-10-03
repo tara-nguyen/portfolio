@@ -105,29 +105,29 @@ The reshaped housing dataset and the school dataset were then merged on the `sch
 
 Here is a box plot of the years the housing units were built. The oldest unit was built in 1908 and the newest one was built in 2018. The average year is 1978, and there are more units built after that than there are units built before that year.
 
-![housingyears](https://github.com/tara-nguyen/UCLA-Extension-coursework/blob/main/Exploratory%20Data%20Analysis%20and%20Visualization/Homework/Final%20assignment/Plots/housingyears.png)
+![housingyears](Plots/housingyears.png)
 
 Next is a histogram of the prices of housing units sold in 2019. The distribution is approximately normal, peaking at around the values between 1,200,000 and 1,400,000. Most units were sold at a price between 500,000 and 1,800,000. Very few units for either less than 500,000 or more than 1,800,000.
 
-![housingprices](https://github.com/tara-nguyen/UCLA-Extension-coursework/blob/main/Exploratory%20Data%20Analysis%20and%20Visualization/Homework/Final%20assignment/Plots/housingprices.png)
+![housingprices](Plots/housingprices.png)
 
 Switching to the school data, we have a bar plot of the student population sizes of all the schools in all three levels - elementary, middle, and high. High schools tend to have more students than either elementary or middle schools. The school with the smallest population size is School ID #36, Panda Middle School, with only 500 students. The school with the largest size is School ID #42, Alpine High School, with 1,250 students.
 
-![schoolsizes](https://github.com/tara-nguyen/UCLA-Extension-coursework/blob/main/Exploratory%20Data%20Analysis%20and%20Visualization/Homework/Final%20assignment/Plots/schoolsizes.png)
+![schoolsizes](Plots/schoolsizes.png)
 
 ### Multi-Variable Visuals
 
 In the following graph, the areas (in square feet) of housing units are plotted against lot sizes, with an overlaid smooth curve fitted by loess. We can see a curvilinear relationship between lot size and area: as lot size increases, so does area. Most lot sizes are under .4 and most units are under 3,000 square feet in area.
 
-![housinglotsz-vs-sqft](https://github.com/tara-nguyen/UCLA-Extension-coursework/blob/main/Exploratory%20Data%20Analysis%20and%20Visualization/Homework/Final%20assignment/Plots/housinglotsz-vs-sqft.png)
+![housinglotsz-vs-sqft](Plots/housinglotsz-vs-sqft.png)
 
 The next graph shows the selling prices of housing units as a function of lot size, with different colors for the different unit types. For lot sizes below .6, price increases very slowly as lot size increases. As lot size reaches .6, price start to level off, and does not get below 850,000. Note, though, that very few lots have sizes above .6. In terms of unit type, all family houses were sold at above 850,000, whereas all condos and townhouses were sold at below $1,600,000.
 
-![housinglotsz-vs-price-bytype](https://github.com/tara-nguyen/UCLA-Extension-coursework/blob/main/Exploratory%20Data%20Analysis%20and%20Visualization/Homework/Final%20assignment/Plots/housinglotsz-vs-price-bytype.png)
+![housinglotsz-vs-price-bytype](Plots/housinglotsz-vs-price-bytype.png)
 
 Next is a smoothed color density plot of the areas of housing units versus the selling price. There is a positive relationship between area and price: as area increases, so does price. Most units were sold at a price between $1,000,000 and $2,000,000.
 
-![housingsqft-vs-price](https://github.com/tara-nguyen/UCLA-Extension-coursework/blob/main/Exploratory%20Data%20Analysis%20and%20Visualization/Homework/Final%20assignment/Plots/housingsqft-vs-price.png)
+![housingsqft-vs-price](Plots/housingsqft-vs-price.png)
 
 ## Data Analyses
 
@@ -225,7 +225,7 @@ We can see that Cluster 1 has below-average school ratings and housing prices, C
 
 Here is a visualization of the clusters, with the school names also displayed.
 
-![kmeans](https://github.com/tara-nguyen/UCLA-Extension-coursework/blob/main/Exploratory%20Data%20Analysis%20and%20Visualization/Homework/Final%20assignment/Plots/kmeans.png)
+![kmeans](Plots/kmeans.png)
 
 The graph shows that school rating and housing price have a positive relationship: as school rating increases, so does housing price. Thus, having a higher-rated school assigned to a unit is associated with a higher selling price for that unit.
 
@@ -264,9 +264,9 @@ When the model selected by the stepwise algorithm was run, the only big differen
 
 In this second run, the sizes of the clusters were still 17, 20 and 15. The centers differed from those in the first run only by .01 in each of the mean values for housing price. As seen from the pair of graphs below (clusters from the first run shown first, followed by those from the second run), there was no big difference between the two runs.
 
-![kmeans](https://github.com/tara-nguyen/UCLA-Extension-coursework/blob/main/Exploratory%20Data%20Analysis%20and%20Visualization/Homework/Final%20assignment/Plots/kmeans.png)
+![kmeans](Plots/kmeans.png)
 
-![kmeans-rerun](https://github.com/tara-nguyen/UCLA-Extension-coursework/blob/main/Exploratory%20Data%20Analysis%20and%20Visualization/Homework/Final%20assignment/Plots/kmeans-rerun.png)
+![kmeans-rerun](Plots/kmeans-rerun.png)
 
 With regard to the "best" and the "worst" neighborhoods, though the number of schools in each cluster for each neighborhood changed by a bit this time, Gold was still the "best" and Red was still the "worst."
 
